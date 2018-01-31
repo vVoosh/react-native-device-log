@@ -34,7 +34,7 @@ class DebugService {
             maxNumberToPersist: 0,
             rowInsertDebounceMs: 200,
             logAppState: true,
-            logConnection: true,
+            logConnection: false,
             ...options,
         };
     }
